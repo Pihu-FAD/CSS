@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 800px;
+            height: 900px;
+        }
+        thead tr{
+            color: khaki;
+            background-color: teal;
+        }
+        th{
+            padding: 15px;
+        }
+        tbody tr:nth-child(odd){
+            color: blue;
+            background-color: blueviolet;
+        }
+        .responsive-table{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="responsive-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Mobile</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                <td>Pihu</td>
+                <td>MCA</td>
+                <td>3165865264</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                <td>Pushpa</td>
+                <td>MCA</td>
+                <td>3165865264</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                <td>Chaudhary</td>
+                <td>MCA</td>
+                <td>3165865264</td>
+                </tr>
+                <td>4</td>
+                <td>Rawat</td>
+                <td>MCA</td>
+                <td>3165865264</td>
+                </tr>
+                <tr><td>5</td>
+                <td>AArchi</td>
+                <td>MCA</td>
+                <td>3165865264</td>
+                </tr>
+                <tr>
+                <td>6</td>
+                <td>Vedartha</td>
+                <td>MCA</td>
+                <td>3165865264</td> 
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
