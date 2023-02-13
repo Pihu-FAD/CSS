@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    border: 2px solid black;
+    margin: 0 auto;
+    background: linear-gradient(45deg, rgb(172, 36, 36), rgb(112, 112, 221));
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    margin: 50px 0;
+}
+#ol{
+    margin: 20px 40px;
+    font-weight: bold;
+    
+}
+ol li{
+    font-size: 20px;
+    font-weight:200;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.top-questions{
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.top-ansers{
+    margin-left: 30px;
+}
+.answers{
+    margin-left: 50px;
+
+}

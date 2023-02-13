@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <h1>MODULE: 2 (CSS and CSS3)</h1>
+      <ol type="disc" id="ol">
+        <li class="top-questions">
+          What are the benefits of using CSS?
+          <ul>
+            <li class="top-ansers">
+                There are a number of benefits of CSS, including:
+                <ul class="answers">
+                    <li>Faster Page Speed. More code means slower page speed.</li>
+                    <li>Better User Experience. CSS not only makes web pages easy on the eye, it also allows for user-friendly formatting.</li>
+                    <li>Quicker Development Time.</li>
+                    <li> Easy Formatting Changes.</li>
+                    <li> Compatibility Across Devices.
+                    </li>
+                </ul>
+            </li>
+          </ul>
+          </li>
+          
+        
+          <li class="top-questions">
+            What are the disadvantages of CSS?
+            <ul>
+                <li class="top-ansers">
+                    Confusion due to many CSS levels. Beginners are more vulnerable to this issue
+                </li>
+                <li class="top-ansers">Cross-Browser Issues. Different browsers work differently. .</li>
+                <li class="top-ansers">Security Issues. Security is important in today's world driven by technology and data. </li>
+                <li class="top-ansers">Extra Work for Developers.</li>
+            </ul>
+        </li>
+        
+        <li class="top-questions">
+            What is the difference between CSS2 and CSS3?
+        <ul>
+            <li class="top-ansers">The main difference between CSS3 and CSS2 is that CSS divides different sections into modules and supports many browsers. It also contains new General Sibling Combinators responsible for matching similar elements.</li>
+        </ul>
+        <li class="top-questions">Name a few CSS style components
+            <ul>
+                <li class="top-ansers">
+                    At its most basic level, CSS consists of two components:
+                    <ul class="answers">
+                        <li>Properties: These are human-readable identifiers that indicate which stylistic features you want to modify. For example, font-size , width , background-color .</li>
+                        <li>Values: Each property is assigned a value. This value indicates how to style the property.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        </li>
+        <li class="top-questions">
+            What do you understand by CSS opacity?
+            <ul>
+                <li class="top-ansers">The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.</li>
+                <li class="top-ansers">The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent. Note: When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well.</li>
+                <li class="top-ansers">In addition to RGB, you can use an RGB color value with an alpha channel (RGBA) - which specifies the opacity for a color. An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).</li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            How can the background color of an element be changed?
+            <ul>
+                <li class="top-ansers">The background-color property sets the background color of an element. The background of an element is the total size of the element, including padding and border (but not the margin). Tip: Use a background color and a text color that makes the text easy to read.</li>
+            </ul>
+  
+        </li>
+        <li class="top-questions">
+            How can image repetition of the backup be controlled?
+            <ul>
+                <li class="top-ansers">The repetition of a background image can be controlled in CSS using the background-repeat property. This property determines whether a background image should be repeated and, if so, in which direction.
+                    <br>
+                    The possible values for background-repeat are:
+                    <ul class="answers">
+                        <li>
+                            repeat: The background image is repeated both horizontally and vertically.
+
+                        </li>
+                        <li>repeat-x: The background image is repeated only horizontally.</li>
+                        <li>repeat-y: The background image is repeated only vertically.</li>
+                        <li>no-repeat: The background image is not repeated and appears only once.</li>
+                    </ul>
+
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What is the use of the background-position property?
+            <ul>
+                <li class="top-ansers">The "background-position" property in CSS is used to specify the initial position of a background image. It determines where the background image is placed within an element and can be used to position the image relative to the top, bottom, left, or right of the element.
+                    <br><br>
+                    The "background-position" property can be set using either length values, such as pixels or percentages, or keywords such as "left," "right," "top," and "bottom." When length values are used, the first value specifies the horizontal position and the second value specifies the vertical position.
+                    <br><br>
+                    Here's an example of using length values to set the background position:
+                    <br><br>
+                    body {
+                        <br>
+                        background-image: url(bg.jpg);
+                        <br>
+                        background-position: 50% 100%;
+                        <br>
+                      }
+                      <br>
+                      In this example, the background image will be positioned 50% from the left and 100% from the top of the body element.
+                      <br><br>
+                      Here's an example of using keywords to set the background position:
+                      <br><br>
+                      body {
+                        <br>
+                        background-image: url(bg.jpg);
+                        <br>
+                        background-position: right bottom;
+                        <br>
+                      }
+                      <br>
+                      In this example, the background image will be positioned at the bottom right of the body element.
+
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            Which property controls the image scroll in the background?
+            <ul>
+                <li class="top-ansers">The property that controls the image scrolling in the background in CSS is the background-attachment property. This property determines whether a background image is fixed or scrolls with the rest of the page.
+                    <br>
+                    The possible values for background-attachment are:
+                    <ul class="answers">
+                        <li>
+                            scroll: The background image scrolls along with the rest of the page (default).
+
+                        </li>
+                        <li>
+                            fixed: The background image is fixed and does not scroll with the rest of the page. It remains in the same position even if the page is scrolled.
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            Why should background and color be used as separate properties?
+            <ul>
+                <li class="top-ansers">Background and color are separate properties in CSS because they serve different purposes.
+                    <ul class="answers">
+                        <li>The background property is used to set the background of an element, and it can include multiple values such as background color, background image, background position, background repeat, etc. For example, you might set a solid color background with</li>
+                        <li>The color property, on the other hand, is used to set the color of text or other content within an element. For example, you might set the color of text to black with:</li>
+                        <li>In summary, separating background and color into separate properties in CSS provides greater flexibility and control in designing web pages.</li>
+                    </ul>
+
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            How to center block elements using CSS1?
+            <ul>
+                <li class="top-ansers">
+                    Centering block elements using CSS1 is not a straightforward process as the CSS1 specification does not include advanced layout and positioning properties. However, there are some techniques that can be used to center block elements in CSS1. Here is one such method:
+                    <ul class="answers">
+                        <li>Specify a width for the block element: This is necessary so that the block element can be centered horizontally.</li>
+                        <li>Set the "margin" property to "auto" for both the left and right sides: This will center the block element horizontally.</li>
+                        <li>Set the "text-align" property to "center" for the parent element: This will center any inline content within the block element vertically.</li>
+
+                    </ul>
+
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            How to maintain the CSS specifications?
+            <ul>
+                <li class="top-ansers">There are several best practices that can help you maintain the specifications of your CSS code:
+                    <ul class="answers">
+                        <li>Use a CSS preprocessor: A CSS preprocessor such as Sass or Less can help you organize your CSS code and make it easier to maintain. You can use variables, mixins, and functions to write DRY (Don't Repeat Yourself) code and make updates faster and more efficient.</li>
+                        <li>Use a CSS framework: A CSS framework such as Bootstrap or Foundation can provide you with a set of pre-designed UI components and layout options. This can help you build a consistent and responsive design faster and with less custom code.</li>
+                        <li>Use a version control system: A version control system such as Git can help you track changes to your code and collaborate with others. You can use branches to experiment with new features and easily revert changes if necessary.</li>
+                        <li>Test your code: Regularly test your code in different browsers and devices to ensure that it works as expected and is free of bugs. Use browser dev tools to debug and fix any issues.</li>
+
+                    </ul>
+
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What are the ways to integrate CSS as a web page?
+            <ul>
+                <li class="top-ansers">There are three main ways to integrate CSS into a web page:
+                    <ul class="answers">
+                        <li>
+                            External Style Sheet: An external style sheet is a separate file with a .css extension that is linked to the HTML document through the HTML link element. This is the most common and preferred method as it allows you to style multiple HTML pages by simply linking to the same CSS file, rather than copying the same styles into every page.
+
+                        </li>
+                        <li>Internal Style Sheet: An internal style sheet is placed within the HTML head element and is used to style a single HTML page. This method is useful when you want to apply unique styles to a single web page that are not used elsewhere on the website.</li>
+                        <li>Inline Styles: Inline styles are styles that are added directly to an HTML element using the "style" attribute. This method is not recommended as it makes your HTML code difficult to maintain and can lead to poor performance as your CSS rules become longer and more complex.</li>
+                    </ul>
+
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What is embedded style sheets?
+            <ul>
+                <li class="top-ansers">It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags containing the CSS properties in the head of your document.</li>
+                <li class="top-ansers">Internal style sheet is also knownas embedded style sheets.</li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What are the external style sheets?
+            <ul>
+                <li class="top-ansers">An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.</li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What are the advantages and disadvantages of using external style sheets?
+            <ul>
+                <li class="top-ansers">External style sheets have the following advantages over internal and inline styles:
+                    <ul class="answers">
+                        <li>one change to the style sheet will change all linked pages.</li>
+                        <li>you can create classes of styles that can then be used on many different HTML elements.</li>
+                        <li>consistent look and feel across multiple web pages.</li>
+                    </ul>
+                </li>
+                <li class="top-ansers">The disadvantages of External Style Sheets are as follows :
+                    <ul class="answers">
+                    <li>An extra download is essential to import style information for each file. The execution of the file may be deferred till the external style sheet is loaded.</li>
+                </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What is the meaning of the CSS selector?
+            <ul>
+                <li class="top-ansers">
+                    A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+                </li>
+                <li class="top-ansers">There are mainly 10 types of selector
+                    <ul class="answers">
+                        <li>Universal Selector</li>
+                        <li>Element Selector</li>
+                        <li>Class Selcetor</li>
+                        <li>ID Selecor</li>
+                        <li>Decendent Selecor</li>
+                        <li>Child Selecor</li>
+                        <li>Adjacent Selecor</li>
+                        <li>General-Sibling Selecor</li>
+                        <li>Group Selecor</li>
+                        <li>Attribute Selecor</li>
+                    </ul> </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What are the media types allowed by CSS?
+            <ul>
+                <li class="top-ansers">The different media types allowed by CSS are: 
+                    <ul class="answers">
+                        <li>speech</li>
+                        <li>audio</li>
+                        <li>visual</li>
+                        <li>tactile media</li>
+                        <li>continuous or paged media</li>
+                        <li>grip media or bitmap</li>
+                        <li>interactive media</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            What is the rule set?
+            <ul>
+                <li class="top-ansers">The ruleset is used for the identification of selectors, which can be attached with other selectors. The two parts of a ruleset are:
+                    <ul class="answers">
+                        <li>Declaration block: contains one or more semicolon-separated declarations</li>
+                        <li>Sector: indicates the HTML element needed to be styled</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="top-questions">
+            Create Layouts
+            <ul>
+                <li class="top-ansers">Creating a layout in CSS involves specifying the styles for the different elements on a web page, such as the header, navigation, main content, and footer. 
+
+                </li>
+            </ul>
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>
