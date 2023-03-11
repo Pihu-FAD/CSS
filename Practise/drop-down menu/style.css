@@ -1,54 +1,40 @@
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-  }
-  .navbar a {
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .navbar a img{
-    width: 30px;
-    margin-left: 20px;
-  }
-  .dropdown {
-    float: right;
-    overflow: hidden;
-  }
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  .navbar a:hover,
-  .dropdown:hover .dropbtn {
-    background-color: #ddd;
-    color: black;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-  }
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.menu {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* height: 70px; */
+  /* background: blue; */
+  /* color: #f0f0f0; */
+  /* background-color: aqua; */
+}
+
+.menu-item {
+  margin-right: 20px;
+  /* font-size: 20px; */
+  /* padding: 10px 0; */
+}
+
+.dropdown {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu-item {
+  padding: 10px;
+  background-color: #f0f0f0;
+}

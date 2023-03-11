@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+}
+.menu{
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-logo img{
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.menu-list{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    /* position: relative; */
+    /* padding: auto; */
+    /* justify-content:space-between; */
+}
+.menu-item{
+    position: rel ative;
+font-size: 20px;
+color: azure;
+
+}
+.submenu-item{
+    background-color: blue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    line-height: 37px;
+}
+.menu-list .serv:hover{
+    color: aqua;
+    background-color:darkblue;
+    width: 93px;
+}
+.submenu-item .Mor:hover{
+    color: aquamarine;
+    background-color: darkblue;
+}
+.menu-item:hover .submenu-item{
+    display: block;
+    
+    
+}
+.moreee{
+    position: relative;
+}
+.child-menu-item{
+    position: absolute;
+    background-color: blue;
+    left: 100%;
+    top: 0;
+    display: none;
+}
+.moreee:hover .child-menu-item{
+    display: block;
+
+}
+
+.btn button{
+    width: 80px;
+    height: 30px;
+    /* padding: 8px; */
+    margin-top: -18px;
+    font-size: 15px;
+}
+.btn button:hover{
+    background-color: cadetblue;
+    border-radius: 10%;
+}
